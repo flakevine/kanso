@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import Request from "./components/Request";
+import Response from "./components/Response";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="bg-slate-200">
-      <p className='font-bold text-2xl'>Kanso API</p>
+    <div>
+      <p className='font-bold text-2xl'>Kanso</p>
+      <br></br>
+      <main className="flex w-screen bg-slate-100">
+        <Request />
+        <Response />
+      </main>
     </div>
   )
 }
