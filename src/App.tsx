@@ -1,12 +1,12 @@
 import RequestPanel from "./components/RequestPanel";
 import ResponsePanel from "./components/ResponsePanel";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="h-screen bg-gray-900 flex flex-col">
-      <p className='font-bold text-2xl text-white'>Kanso</p>
-      <br></br>
-      <main className="flex h-full w-screen bg-slate-100 overflow-hidden flex-col sm:flex-row">
+    <div className="h-screen flex flex-col">
+      <Header />
+      <main className="flex h-full w-screen bg-slate-100 overflow-hidden flex-col sm:flex-row p-5 rounded">
         <RequestPanel />
         <ResponsePanel />
       </main>
