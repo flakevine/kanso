@@ -59,7 +59,9 @@
         "height": 600,
         "resizable": true,
         "title": "Kanso",
-        "width": 800
+        "width": 800,
+        "minHeight": 800,
+        "minWidth": 300
       }
     ]
   }

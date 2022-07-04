@@ -1,14 +1,14 @@
-import Request from "./components/Request";
-import Response from "./components/Response";
+import RequestPanel from "./components/RequestPanel";
+import ResponsePanel from "./components/ResponsePanel";
 
 function App() {
   return (
-    <div>
-      <p className='font-bold text-2xl'>Kanso</p>
+    <div className="h-screen bg-gray-900 flex flex-col">
+      <p className='font-bold text-2xl text-white'>Kanso</p>
       <br></br>
-      <main className="flex w-screen bg-slate-100">
-        <Request />
-        <Response />
+      <main className="flex h-full w-screen bg-slate-100 flex-col sm:flex-row">
+        <RequestPanel />
+        <ResponsePanel />
       </main>
     </div>
   )
