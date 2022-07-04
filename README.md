@@ -25,6 +25,7 @@ Kanso is an open source API client similar to Insomnia and Postman made in Rust 
 - Tree navigation side bar with folders
 - VSCode Integration
 - Search box
+- Custom CSS themes
 
 ## Contributing
 
